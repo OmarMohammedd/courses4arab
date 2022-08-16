@@ -9,7 +9,8 @@ const cleanCSS = require('gulp-clean-css');
 var concat = require('gulp-concat');
 // Enabling you to compile your Pug templates into HTML
 const pug = require('gulp-pug');
-
+//To Show file name chrome
+var sourcemaps = require('gulp-sourcemaps');
 
 
 
@@ -31,8 +32,10 @@ function pugtoHTML() {
 function movecss() {
   return gulp
     .src(["src/0-mywork/css-files/*.css"]) //
+    .pipe(sourcemaps.init()) //sourse map
     .pipe(cleanCSS({compatibility: 'ie8'})) //minify
     .pipe(concat('all.css')) //هيجمعهم
+    .pipe(sourcemaps.write()) //sourse map
     .pipe(gulp.dest("build")) //
     .pipe(livereload());
 }
