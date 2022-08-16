@@ -1,0 +1,187 @@
+html {box-sizing: border-box;} 
+
+
+   
+
+ *{
+   margin: 0;
+   font-family: sans-serif;
+color: #3d4a59;
+ }
+    
+
+
+
+*, *:before, *:after {box-sizing: inherit;}  
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+p, li{
+  font-size: 1.2rem;
+  
+}
+
+.mt{
+  margin-top: 1rem;
+}
+
+.mtt{
+  margin-top: 1.5rem;
+}
+
+.mttt{
+  margin-top: 3rem;
+}
+
+.link:hover{
+  font-weight: bold;
+  border-bottom: 2px solid #fc4364;
+}
+
+.center{
+  text-align: center;
+}
+
+
+.mybtn {
+  margin: .5rem;
+  color: #3d4a59;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #33557c;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .5rem;
+  transition: all .5s;
+}
+
+.mybtn:hover {
+  background-color: #fc4364;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+
+.card {
+  box-shadow: 0 5px 30px 0 rgb(0 0 0 / 25%);
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1rem;
+  padding: 1%;
+}
+
+.box {
+  text-align: center;
+  color: #ffffff;
+  background-color: #33557c;
+  padding: 0.9rem 3rem;
+  font-size: 1.6rem;
+  margin: 1rem auto 3rem;
+  border-radius: 1.5rem;
+}
+
+
+ol li {
+  list-style: none;
+  margin-top: 20px;
+}
+
+ol {
+  counter-reset: plusone;
+  
+}
+
+ol li::before {
+    counter-increment: plusone;
+
+content:  counter(plusone);
+    background-color: #fc4364;
+  padding: 1px 7px;
+  color: white;
+  border-radius: 8px;
+  margin: 10px;
+  font-size: 20px;
+ }
+
+
+ .underline{
+  border-bottom: 4px solid rgb(255, 65, 93);
+  padding: 12px 18px;
+  border-radius: 25px;
+  font-size: 1.8rem;
+  color: #4169e1;
+  }
+
+  
+
+
+/*=============
+ad area
+============== */
+.border {
+  border: 2px solid lightpink;
+  border-radius: 1rem;
+  padding: 6px;
+  border-left: 10px solid #fd6c6c;
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+/* =============
+      انا مين 
+================*/
+.flex{
+  display: flex;
+}
+.left-sec, .right-sec{
+  width: 50%;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.name {
+  margin: 1.1rem auto;
+  height: 1.7rem;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  display: block;
+}
+
+.pic {
+  border-radius: 50%;
+  box-shadow: 0 2px 8px 0 rgb(0 0 0 / 25%);
+  height: 10rem;
+  border-right: 2px solid #ff8a00;
+  border-left: 2px solid #ff8a00;
+  border-bottom: 2px solid #e52e71;
+  border-top: 2px solid #e52e71;
+}
+
+.goal{
+  font-size: 2rem;
+}
+
+.left-sec p{
+margin-bottom: 1rem;
+}
+
+
+/*============ 
+    footer 
+============*/
+
+
+
+
